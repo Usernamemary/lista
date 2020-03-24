@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lista de tareas</title>
+
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+  <header><h2>Lista de tareas</h2></header>
+  <main>
+ <section>
+
+    <form id="formTask">
+      <div class="form-group">
+        <input type="text" id="titulo" placeholder="Título de la tarea" class="form-control" > 
+      </div> 
+      <div class="form-group">
+        <textarea id="description" rows="8" placeholder="Descripción de la tarea"  class="form-control"></textarea>
+      </div>
+      <button type="submit" class="button">
+        <i class="fas fa-plus-circle"></i> Agregar
+      </button>
+      
+    </form>
+</section>
+<section>
+    <div id="tasks" ></div>
+</section>
+  </main>
+<!--SCRIPTS -->
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/1e2c643c4b.js"></script>
+
+</body>
+</html>
